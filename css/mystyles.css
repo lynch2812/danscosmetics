@@ -1,5 +1,6 @@
 
 body {
+    font-size: 1rem;
     margin-left: 1px;
     margin-top: 0px;
     
@@ -10,7 +11,7 @@ body {
     padding: 0 40px;
   }
   
-  h1 {
+  h1,h2,h3 {
     font-size: 40px;
     font-family: fantasy;
     text-shadow: 0.2em 0.1em 0.1em darkgrey;
