@@ -1,6 +1,8 @@
+
 body {
     margin-left: 1px;
     margin-top: 0px;
+    
     
   }
   
@@ -62,7 +64,8 @@ body {
     z-index:2;
     border-radius: 1rem;
     left:0%;
-    top:10%;
+    top:5.4%;
+    cursor:pointer;
   }
   /* links inside the dropdown   */
   .dropDwn_content a {
@@ -78,3 +81,18 @@ body {
     display: block;
     
   }
+/*Hero container and picture*/
+.hero {
+    height:30rem;
+    width:95%;
+}
+.hero_title {
+    position:absolute;
+    top: 40%;
+    left:20%;
+    font-size: 3rem;
+    color:darkmagenta;
+    
+
+    
+}
