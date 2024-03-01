@@ -1,0 +1,80 @@
+body {
+    margin-left: 1px;
+    margin-top: 0px;
+    
+  }
+  
+  main {
+    padding: 0 40px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-family: fantasy;
+    text-shadow: 0.2em 0.1em 0.1em darkgrey;
+    text-shadow: 0.2em 0.1em 0.1em darkslategray;
+    text-shadow: 0.3em 0.2em 0.1em darkslategray;
+  }
+
+  /*Navbar look*/
+  .navbar {
+    overflow: hidden;
+    background-color:darkslateblue;
+    font-family:'Times New Roman', Times, serif;}
+  /*container for dropdown in headers navbar*/
+.dropDwn_container {
+  
+    overflow: hidden;
+  }
+  /* Dropdown button */
+  .dropDwn_container .btn_dropDwn {
+  font-size: 0.2rem;
+  float:left;
+  outline:none;
+  border:none;
+  color:white;
+  padding: 0.875rem 1rem;
+  background-color:darkslateblue;
+  font-family:inherit;/* mobile optimisation*/
+  margin:0; /* mobile optimisation */
+  cursor:pointer;
+  }
+  .btn_icon {
+    width:1rem;
+    height:0.2rem;
+    background-color:white;
+    margin:0.2rem;
+    
+  }
+  /*color dropdown is highlighted when hovered over*/
+  .dropDwn_container:hover .btn_dropDwn {
+    background-color: rgba(0, 0, 0, 0.043);
+   
+  }
+  
+  /*  dropdown content    */
+  .dropDwn_content {
+    display:none; 
+    position:absolute;
+    background-color:rgba(71, 61, 139, 0.464); /*background color of the content block*/
+    min-width:10rem; /*wont shrink smaller then this size*/
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(243, 243, 243, 0.642);
+    z-index:2;
+    border-radius: 1rem;
+    left:0%;
+    top:10%;
+  }
+  /* links inside the dropdown   */
+  .dropDwn_content a {
+    Float: none;
+    color:white;
+    padding:0.865rem 1rem;
+    text-decoration:none;
+    display:block;
+    text-align:left;
+  }
+    /*how dropdown menu is revealed when hovering, the content within the container is the target */
+  .dropDwn_container:hover .dropDwn_content {
+    display: block;
+    
+  }
