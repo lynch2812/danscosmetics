@@ -1,8 +1,9 @@
 
 body {
     font-size: 1rem;
-    margin-left: 1px;
-    margin-top: 0px;
+    left: 1rem;
+    top:1rem;
+
     
     
   }
@@ -85,7 +86,7 @@ body {
 /*Hero container and picture*/
 .hero {
     height:30rem;
-    width:95%;
+    width: 100%;
 }
 .hero_title {
     position:absolute;
@@ -96,4 +97,40 @@ body {
     
 
     
+}
+/* container and image with slide function that holds information*/
+.intro_image_container{
+height:20rem;
+width:18.75rem;
+background-color: pink;
+position:relative;
+top: 1rem;
+border:4px double rgba(215, 192, 192, 0.78) ;
+
+
+}
+.intro_image {
+  display:block;
+  width:100%;
+  height:100%;
+  
+}
+.overlay-slide {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  background-color:rgba(255, 192, 203, 0.691);
+  overflow:hidden;
+  width:0;
+  height:100%;
+  transition: .5s ease;
+}
+.intro_image_container:hover .overlay-slide {
+  width:100%;
+  cursor:pointer;
+}
+.text-slide {
+color:darkblue;
+
 }
