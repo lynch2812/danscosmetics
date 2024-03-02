@@ -85,12 +85,12 @@ h3 {
 }
 /*Hero container and picture*/
 .hero {
-  height: 70rem;
+  height: 40rem;
   width: 100%;
 }
 .hero_title {
   position: absolute;
-  top: 100%;
+  top: 10%;
   left: 40%;
   font-size: 3rem;
   color: darkmagenta;
@@ -166,3 +166,28 @@ h3 {
   cursor: pointer;
 }
 /*slide right to left picture info */
+.intro_image_container3{
+  height: 20rem;
+  width: 18.75rem;
+  background-color: pink;
+  position: relative;
+  top: 1rem;
+  border: 4px double rgba(215, 192, 192, 0.78);
+}
+
+.overlay-slide3 {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgba(255, 192, 203, 0.691);
+  overflow: hidden;
+  width: 0%;
+  height: 100%;
+  transition: 0.5s ease;
+}
+.intro_image_container3:hover .overlay-slide3  {
+  width: 100%;
+  left:0;
+  cursor: pointer;
+}
