@@ -217,7 +217,9 @@ span {
   position: relative;
   top: 4rem;
   border: 4px double rgba(215, 192, 192, 0.78);
+  box-shadow: 0.5rem 0.5rem 0.5rem pink;
   min-width: 21.875rem;
+  transition: box-shadow 2s ease;
 }
 .video_product {
   width: 100%;
@@ -233,4 +235,9 @@ span {
   margin-top: auto;
   min-width: 20rem;
   box-shadow: 0.8rem 0.8rem 1rem rgba(254, 241, 243, 0.7);
+  transition: box-shadow 2s ease;
 }
+.video_context:hover ,.video_container:hover {
+  box-shadow:none
+}
+/*End of the first video container*/
