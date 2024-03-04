@@ -17,12 +17,19 @@ h3 {
   text-shadow: 0.2em 0.1em 0.1em darkslategray;
   text-shadow: 0.3em 0.2em 0.1em darkslategray;
 }
+span {
+  font-weight: bold;
+}
+#context_heading {
+  font-size: 2rem;
+}
 
 /*Navbar look*/
 .navbar {
   overflow: hidden;
   background-color: darkslateblue;
   font-family: "Times New Roman", Times, serif;
+  min-width: 35rem;
 }
 /*container for dropdown in headers navbar*/
 .dropDwn_container {
@@ -87,6 +94,7 @@ h3 {
 .hero {
   height: 40rem;
   width: 100%;
+  min-width: 35rem;
 }
 .hero_title {
   position: absolute;
@@ -98,15 +106,14 @@ h3 {
 /* container and image with slide function that holds information*/
 /*flex container*/
 .flex_container {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: inherit;
-    width:90%;
-    margin-left:5%;
-  
-} 
+  display: flex;
+  flex-wrap: wrap;
+  background-color: inherit;
+  width: 90%;
+  margin-left: 5%;
+}
 .flex_container > div {
-  margin-left: 1.5rem;
+  margin-left: 4.9rem;
 }
 .intro_image_container {
   height: 20rem;
@@ -133,7 +140,7 @@ h3 {
   height: 100%;
   transition: 0.5s ease;
 }
-.intro_image_container:hover .overlay-slide  {
+.intro_image_container:hover .overlay-slide {
   width: 100%;
   cursor: pointer;
 }
@@ -141,7 +148,7 @@ h3 {
   color: darkblue;
 }
 /* slide top to bottom picture info*/
-.intro_image_container2{
+.intro_image_container2 {
   height: 20rem;
   width: 18.75rem;
   background-color: pink;
@@ -161,12 +168,12 @@ h3 {
   height: 0%;
   transition: 0.5s ease;
 }
-.intro_image_container2:hover .overlay-slide2  {
+.intro_image_container2:hover .overlay-slide2 {
   height: 100%;
   cursor: pointer;
 }
 /*slide right to left picture info */
-.intro_image_container3{
+.intro_image_container3 {
   height: 20rem;
   width: 18.75rem;
   background-color: pink;
@@ -186,8 +193,44 @@ h3 {
   height: 100%;
   transition: 0.5s ease;
 }
-.intro_image_container3:hover .overlay-slide3  {
+.intro_image_container3:hover .overlay-slide3 {
   width: 100%;
-  left:0;
+  left: 0;
   cursor: pointer;
+}
+/*END*/
+/* heading section for first video*/
+#heading_product_sec1 {
+  width: 100%;
+  height: auto;
+  border-top: 0.6rem double pink;
+  border-bottom: 0.6rem double pink;
+  text-align: center;
+  position: relative;
+  top: 1.2rem;
+  min-width: 20rem;
+}
+/*video and video container*/
+.video_container {
+  display: block;
+  background-color: inherit;
+  position: relative;
+  top: 4rem;
+  border: 4px double rgba(215, 192, 192, 0.78);
+  min-width: 21.875rem;
+}
+.video_product {
+  width: 100%;
+  height: auto;
+}
+.video_context {
+  display: block;
+  height: 51.875rem;
+  width: 42rem;
+  background-color: rgba(255, 192, 203, 0.459);
+  color: black;
+  border: 2px double black;
+  margin-top: auto;
+  min-width: 20rem;
+  box-shadow: 0.8rem 0.8rem 1rem rgba(254, 241, 243, 0.7);
 }
