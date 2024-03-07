@@ -231,7 +231,7 @@ span {
 .video_context {
   display: block;
   height: 28rem;
-  width: 42rem;
+  width: 65rem;
   background-color: rgba(255, 192, 203, 0.459);
   color: black;
   border: 2px double black;
@@ -264,7 +264,7 @@ span {
 .video_context2 {
   display: block;
   height: 28rem;
-  width: 42rem;
+  width: 65rem;
   background-color: rgba(255, 192, 203, 0.459);
   color: black;
   border: 2px double black;
