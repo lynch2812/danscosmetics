@@ -288,6 +288,7 @@ span {
   top: 1rem;
   border: 4px double rgba(215, 192, 192, 0.78);
   transition: box-shadow 2s ease-in-out;
+  left:-0.9rem;
 }
 .product_image {
   display: block;
