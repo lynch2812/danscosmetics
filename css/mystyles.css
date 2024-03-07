@@ -92,7 +92,6 @@ span {
 }
 /*Hero container and picture*/
 .hero {
-  height: 40rem;
   width: 100%;
   min-width: 35rem;
 }
@@ -275,7 +274,8 @@ span {
   transition: box-shadow 2s ease;
 }
 .video_context2:hover,
-.video_container2:hover {
+.video_container2:hover,
+.product_image_container:hover {
   box-shadow: none;
 }
 /*END OF VIDEO START OF PICTURES*/
@@ -284,8 +284,10 @@ span {
   width: 18.75rem;
   background-color: pink;
   position: relative;
+  box-shadow: 0.5rem 0.5rem 0.5rem pink;
   top: 1rem;
   border: 4px double rgba(215, 192, 192, 0.78);
+  transition: box-shadow 2s ease-in-out;
 }
 .product_image {
   display: block;
