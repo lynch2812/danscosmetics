@@ -239,7 +239,8 @@ span {
   min-width: 20rem;
   box-shadow: 0.8rem 0.8rem 1rem rgba(254, 241, 243, 0.7);
   transition: box-shadow 2s ease;
-  margin-right: -2rem;
+  margin-right: 2.2rem;
+  margin-left: 5rem;
 }
 .video_context:hover,
 .video_container:hover {
@@ -272,6 +273,7 @@ span {
   min-width: 20rem;
   box-shadow: 0.8rem 0.8rem 1rem rgba(254, 241, 243, 0.7);
   transition: box-shadow 2s ease;
+  margin-right:2.3rem;
 }
 .video_context2:hover,
 .video_container2:hover,
