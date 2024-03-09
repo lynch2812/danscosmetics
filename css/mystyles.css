@@ -29,7 +29,7 @@ span {
 .nav_btn_img {
   text-decoration: none;
   transition: transform 3s;
-  }
+}
 .nav_btn_img:hover {
   transform: rotatex(360deg);
 }
@@ -242,7 +242,7 @@ span {
   width: 100%;
   height: auto;
 }
-.video_context {
+.product_context {
   display: block;
   height: 28rem;
   width: 65rem;
@@ -256,7 +256,7 @@ span {
   margin-right: 2.2rem;
   margin-left: 5rem;
 }
-.video_context:hover,
+.product_context:hover,
 .video_container:hover {
   box-shadow: none;
 }
@@ -276,7 +276,7 @@ span {
   width: 100%;
   height: auto;
 }
-.video_context2 {
+.product_context2 {
   display: block;
   height: 28rem;
   width: 65rem;
@@ -289,7 +289,7 @@ span {
   transition: box-shadow 2s ease;
   margin-right: 2.3rem;
 }
-.video_context2:hover,
+.product_context2:hover,
 .video_container2:hover,
 .product_image_container:hover {
   box-shadow: none;
