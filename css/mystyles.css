@@ -225,30 +225,16 @@ span {
   min-width: 20rem;
 }
 /*video and video container*/
-.video_container {
-  display: block;
-  background-color: transparent;
-  position: relative;
-  top: 4rem;
-  border: 4px double rgba(215, 192, 192, 0.78);
-  box-shadow: 0.5rem 0.5rem 0.5rem pink;
-  min-width: 17.875rem;
-  transition: box-shadow 2s ease;
-  width: 27rem;
-  /* height: 29rem; */
-  height: fit-content;
-}
-.video_product {
-  width: 100%;
-  height: auto;
-}
+
+
 .product_context {
   display: block;
-  height: 28rem;
+  height: 28rem;  
   width: 65rem;
   background-color: rgba(255, 192, 203, 0.459);
   color: black;
-  border: 2px double black;
+  border-top: 0.2rem double deeppink;
+  border-bottom: 0.2rem double deeppink;
   margin-top: 6rem;
   min-width: 20rem;
   box-shadow: 0.8rem 0.8rem 1rem rgba(254, 241, 243, 0.7);
@@ -256,41 +242,26 @@ span {
   margin-right: 2.2rem;
   margin-left: 5rem;
 }
-.product_context:hover,
-.video_container:hover {
+.product_context:hover
+{
   box-shadow: none;
 }
 /*End of the first video container*/
-.video_container2 {
-  display: block;
-  background-color: inherit;
-  position: relative;
-  width: fit-content;
-  top: 3rem;
-  border: 4px double rgba(215, 192, 192, 0.78);
-  box-shadow: 0.5rem 0.5rem 0.5rem pink;
-  min-width: 21.875rem;
-  transition: box-shadow 2s ease;
-}
-.video_product2 {
-  width: 100%;
-  height: auto;
-}
 .product_context2 {
   display: block;
   height: 28rem;
   width: 65rem;
   background-color: rgba(255, 192, 203, 0.459);
   color: black;
-  border: 2px double black;
+  border-top: 0.2rem double deeppink;
+  border-bottom:0.2rem double deeppink;
   margin-top: 7rem;
   min-width: 20rem;
   box-shadow: 0.8rem 0.8rem 1rem rgba(254, 241, 243, 0.7);
   transition: box-shadow 2s ease;
   margin-right: 2.3rem;
 }
-.product_context2:hover,
-.video_container2:hover,
+.product_context2:hover
 .product_image_container:hover {
   box-shadow: none;
 }
