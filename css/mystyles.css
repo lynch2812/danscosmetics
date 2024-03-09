@@ -17,10 +17,9 @@ h1,
 h2,
 h3 {
   font-size: 40px;
-  font-family: fantasy;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
   text-shadow: 0.2em 0.1em 0.1em darkgrey;
-  text-shadow: 0.2em 0.1em 0.1em darkslategray;
-  text-shadow: 0.3em 0.2em 0.1em darkslategray;
+ 
 }
 span {
   font-weight: bold;
@@ -226,12 +225,11 @@ span {
 }
 /*video and video container*/
 
-
 .product_context {
   display: block;
-  height: 28rem;  
+  height: 28rem;
   width: 65rem;
-  background-color:#f6f4e8;
+  background-color: rgba(209, 201, 201, 0.725);
   color: black;
   border-top: 0.2rem double black;
   border-bottom: 0.2rem double black;
@@ -242,8 +240,7 @@ span {
   margin-right: 2.2rem;
   margin-left: 5rem;
 }
-.product_context:hover
-{
+.product_context:hover {
   box-shadow: none;
 }
 /*End of the first video container*/
@@ -251,10 +248,10 @@ span {
   display: block;
   height: 28rem;
   width: 65rem;
-  background-color: #937729e;
+  background-color:  rgba(209, 201, 201, 0.725);
   color: black;
   border-top: 0.2rem double transparent;
-  border-bottom:0.2rem double black;
+  border-bottom: 0.2rem double black;
   margin-top: 7rem;
   min-width: 20rem;
   box-shadow: 0.8rem 0.8rem 1rem black;
