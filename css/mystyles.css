@@ -1,3 +1,8 @@
+/*smooth scroll to anchors */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 1rem;
   left: 1rem;
@@ -85,6 +90,7 @@ span {
   text-decoration: none;
   display: block;
   text-align: left;
+  scroll-behavior: smooth;
 }
 /*how dropdown menu is revealed when hovering, the content within the container is the target */
 .dropDwn_container:hover .dropDwn_content {
