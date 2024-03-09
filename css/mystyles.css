@@ -231,13 +231,13 @@ span {
   display: block;
   height: 28rem;  
   width: 65rem;
-  background-color: rgba(255, 192, 203, 0.459);
+  background-color:#f6f4e8;
   color: black;
-  border-top: 0.2rem double deeppink;
-  border-bottom: 0.2rem double deeppink;
+  border-top: 0.2rem double black;
+  border-bottom: 0.2rem double black;
   margin-top: 6rem;
   min-width: 20rem;
-  box-shadow: 0.8rem 0.8rem 1rem rgba(254, 241, 243, 0.7);
+  box-shadow: 0.8rem 0.8rem 1rem black;
   transition: box-shadow 2s ease;
   margin-right: 2.2rem;
   margin-left: 5rem;
@@ -251,17 +251,17 @@ span {
   display: block;
   height: 28rem;
   width: 65rem;
-  background-color: rgba(255, 192, 203, 0.459);
+  background-color: #937729e;
   color: black;
-  border-top: 0.2rem double deeppink;
-  border-bottom:0.2rem double deeppink;
+  border-top: 0.2rem double transparent;
+  border-bottom:0.2rem double black;
   margin-top: 7rem;
   min-width: 20rem;
-  box-shadow: 0.8rem 0.8rem 1rem rgba(254, 241, 243, 0.7);
+  box-shadow: 0.8rem 0.8rem 1rem black;
   transition: box-shadow 2s ease;
   margin-right: 2.3rem;
 }
-.product_context2:hover
+.product_context2:hover,
 .product_image_container:hover {
   box-shadow: none;
 }
