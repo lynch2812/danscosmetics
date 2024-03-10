@@ -20,6 +20,9 @@ h3 {
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
   text-shadow: 0.2em 0.1em 0.1em darkgrey;
 }
+p{
+  font-size:1.5rem;
+}
 
 /*End*/
 span {
@@ -187,7 +190,7 @@ span {
 }
 /*context boxes*/
 
-.product_context {
+.product_context  {
   display: block;
   height: 34rem;
   width: 33rem;
@@ -197,6 +200,7 @@ span {
   border-bottom: 0.2rem double black;
   margin-top: 6rem;
   min-width: 20rem;
+  font-size:1.5rem;
   box-shadow: 0.8rem 0.8rem 1rem black;
   transition: box-shadow 2s ease;
   margin-right: 2.2rem;
