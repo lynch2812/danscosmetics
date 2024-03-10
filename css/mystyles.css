@@ -119,12 +119,18 @@ span {
 /*about us section*/
 .block_text_profile {
   height: 30rem;
-  width: 100%;
+  width: 80%;
+  background-image:url("/projectpictures/Danpic.png");
+  background-size: cover;
   align-content: center;
+  font-size:1.0rem;
+  color:white;
+  text-align: left;
+  border-radius:0.2rem;
   }
 .block_text_profile h1{
   font-size: 3rem;
-  margin-left: -7.9rem;
+  text-align:center;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   
 
