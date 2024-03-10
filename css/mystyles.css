@@ -86,8 +86,8 @@ span {
   box-shadow: 0rem 0.5rem 1rem 0rem rgba(243, 243, 243, 0.642);
   z-index: 2;
   border-radius: 1rem;
-  left: 0%;
-  top: 5.4%;
+  left: 1.4rem;
+  top: 0rem;
   cursor: pointer;
 }
 /* links inside the dropdown   */
@@ -125,6 +125,7 @@ span {
   color: black;
   text-align: center;
   border-radius: 0.2rem;
+  overflow:scroll;
 }
 .block_text_profile h1 {
   font-size: 3rem;
@@ -200,6 +201,7 @@ span {
   transition: box-shadow 2s ease;
   margin-right: 2.2rem;
   margin-left: 5rem;
+  overflow:scroll;
 }
 
 .product_context:hover {
@@ -220,6 +222,7 @@ span {
   box-shadow: 0.8rem 0.8rem 1rem black;
   transition: box-shadow 2s ease;
   margin-right: 2.3rem;
+  overflow:scroll;
 }
 .product_context2:hover,
 .product_image_container:hover {
