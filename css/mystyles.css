@@ -120,8 +120,6 @@ span {
 .block_text_profile {
   height: 30rem;
   width: 80%;
-  background-image:url("/projectpictures/Danpic.png");
-  background-size: cover;
   align-content: center;
   font-size:1.0rem;
   color:white;
@@ -177,9 +175,9 @@ span {
 
 .product_context {
   display: block;
-  height: 28rem;
-  width: 65rem;
-  background-color: rgba(209, 201, 201, 0.725);
+  height: 34rem;
+  width: 33rem;
+  background-color: ghostwhite;
   color: black;
   border-top: 0.2rem double black;
   border-bottom: 0.2rem double black;
@@ -215,16 +213,16 @@ span {
 }
 /*END OF VIDEO START OF PICTURES*/
 .product_image_container {
-  height: 20rem;
-  width: 18.75rem;
-  background-color: pink;
-  position: relative;
-  box-shadow: 0.5rem 0.5rem 0.5rem pink;
-  top: 1rem;
-  border: 4px double rgba(215, 192, 192, 0.78);
-  transition: box-shadow 2s ease-in-out;
-  left: -0.9rem;
-  border-radius: 100%;
+  height: 32.75rem;
+    width: 32.75rem;
+    background-color: pink;
+    position: relative;
+    box-shadow: 0.5rem 0.5rem 0.5rem pink;
+    top: 6rem;
+    border: 4px double rgba(215, 192, 192, 0.78);
+    transition: box-shadow 2s ease-in-out;
+    left: -0.9rem;
+    border-radius: 100%;
 }
 .product_image {
   display: block;
