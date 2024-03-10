@@ -119,19 +119,22 @@ span {
 /*about us section*/
 .block_text_profile {
   height: 30rem;
-  width: 80%;
+  width: 50%;
   align-content: center;
-  font-size:1.0rem;
-  color:white;
-  text-align: left;
-  border-radius:0.2rem;
-  }
-.block_text_profile h1{
+  font-size: 1.3rem;
+  color: black;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+.block_text_profile h1 {
   font-size: 3rem;
-  text-align:center;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-  
-
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.img_profile {
+  height: 100%;
+  width: 100%;
+  border: 3px solid black;
 }
 /* container and image with slide function that holds information*/
 /*flex container*/
@@ -225,17 +228,17 @@ span {
 /*end of content box 2*/
 /* images within flex*/
 .product_image_container {
-    height: 32.75rem;
-      width: 32.75rem;
-      background-color: transparent;
-      position: relative;
-      box-shadow: 0.5rem 0.5rem 0.5rem black;
-      top: 6rem;
-      border: 4px double transparent;
-      transition: box-shadow 2s ease-in-out;
-      left: -0.9rem;
-      border-radius: 35%;
-    overflow:hidden;
+  height: 32.75rem;
+  width: 32.75rem;
+  background-color: transparent;
+  position: relative;
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+  top: 6rem;
+  border: 4px double transparent;
+  transition: box-shadow 2s ease-in-out;
+  left: -0.9rem;
+  border-radius: 35%;
+  overflow: hidden;
 }
 .product_image {
   display: block;
