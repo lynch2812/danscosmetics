@@ -241,25 +241,26 @@ span {
 /*end of content box 2*/
 /* images within flex*/
 .product_image_container {
-  height: 32.75rem;
-  width: 32.75rem;
+  height: auto;
+  width: 100%;
   background-color: transparent;
   position: relative;
   box-shadow: 0.5rem 0.5rem 0.5rem black;
-  top: 6rem;
+  top: -1rem;
+  left:-0.25rem;
   border: 4px double transparent;
   transition: box-shadow 2s ease-in-out;
-  left: -0.9rem;
-  border-radius: 35%;
+  align-content:center;
+  border-radius: 10%;
   overflow: hidden;
 }
 .product_image {
   display: block;
   width: 100%;
   height: 100%;
-  border-radius: 20%;
+  border-radius: 10%;
+  background-size: 2rem;
 }
-
 
 
 
