@@ -107,7 +107,7 @@ span {
 /*Hero container and picture*/
 .hero {
   width: 100%;
-  min-width: 35rem;
+  height:auto;
 }
 .hero_title {
   position: absolute;
@@ -196,7 +196,6 @@ span {
   border-top: 0.2rem double black;
   border-bottom: 0.2rem double black;
   margin-top: 6rem;
-  min-width: 20rem;
   font-size: 1.5rem;
   box-shadow: 0.8rem 0.8rem 1rem black;
   transition: box-shadow 2s ease;
@@ -209,6 +208,8 @@ span {
   box-shadow: none;
 }
 /*End of the first content boxes*/
+/*mobile adaptation context boxes*/
+
 /*contact us button*/
 .email_button {
   padding: 0.5rem 1rem;
