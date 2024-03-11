@@ -9,9 +9,6 @@ body {
   top: 1rem;
 }
 
-main {
-  padding: 0 2.4rem;
-}
 /*headings*/
 h1,
 h2,
@@ -20,8 +17,8 @@ h3 {
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
   text-shadow: 0.2em 0.1em 0.1em darkgrey;
 }
-p{
-  font-size:1.5rem;
+p {
+  font-size: 1.5rem;
 }
 
 /*End*/
@@ -128,7 +125,7 @@ span {
   color: black;
   text-align: center;
   border-radius: 0.2rem;
-  overflow:scroll;
+  overflow: scroll;
 }
 .block_text_profile h1 {
   font-size: 3rem;
@@ -190,7 +187,7 @@ span {
 }
 /*context boxes*/
 
-.product_context  {
+.product_context {
   display: block;
   height: 34rem;
   width: 33rem;
@@ -200,20 +197,40 @@ span {
   border-bottom: 0.2rem double black;
   margin-top: 6rem;
   min-width: 20rem;
-  font-size:1.5rem;
+  font-size: 1.5rem;
   box-shadow: 0.8rem 0.8rem 1rem black;
   transition: box-shadow 2s ease;
   margin-right: 2.2rem;
   margin-left: 5rem;
-  overflow:scroll;
+  overflow: scroll;
 }
 
 .product_context:hover {
   box-shadow: none;
 }
 /*End of the first content boxes*/
+/*contact us button*/
+.email_button {
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  background-color: #93772e;
+  color: ghostwhite;
+  box-shadow: 0.2rem 0.2rem 0.2rem black;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 2s  ease-in-out, box-shadow 3s ease-in-out, color 2s;
+  -webkit-transition: background-color 2s  ease-in-out, box-shadow 3s ease-in-out, color 2s;
+  -o-transition: background-color 2s  ease-in-out, box-shadow 3s ease-in-out, color 2s;
+  -moz-transition: background-color 2s  ease-in-out, box-shadow 3s ease-in-out, color 2s;
+  font-weight: bold;
+}
+.email_button:hover {
+  background-color: ghostwhite;
+  color: #93772e;
+  box-shadow: none;
+}
+/*End*/
 /*context box 2*/
-
 
 .product_image_container:hover {
   box-shadow: none;
