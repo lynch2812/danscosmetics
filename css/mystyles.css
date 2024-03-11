@@ -119,8 +119,8 @@ span {
 }
 /*about us section*/
 .block_text_profile {
-  height: 30rem;
-  width: 50%;
+  height: auto;
+  width: 100%;
   align-content: center;
   font-size: 1.3rem;
   color: black;
