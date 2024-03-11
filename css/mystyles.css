@@ -42,7 +42,8 @@ span {
   overflow: hidden;
   background-color: darkslateblue;
   font-family: "Times New Roman", Times, serif;
-  min-width: 35rem;
+  width:100%;
+  height:auto;
 }
 /*container for dropdown in headers navbar*/
 .dropDwn_container {
