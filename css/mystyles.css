@@ -204,7 +204,7 @@ span {
   transition: box-shadow 2s ease;
   margin-right: 2.2rem;
   margin-left: 5rem;
-  overflow: scroll;
+  overflow:hidden;
 }
 
 .product_context:hover {
