@@ -263,6 +263,16 @@ span {
   border-radius: 10%;
 }
 
+/*galleries*/
+div.scroll-container {
+  background-color: darkslateblue;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+div.scroll-container img {
+  padding: 10px;
+}
 
 
 /*mobile optimisation*/
@@ -270,13 +280,4 @@ span {
   .block_text_profile {
     font-size: 0.5rem;
   }
-}
-div.scroll-container {
-  background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
-}
-div.scroll-container img {
-  padding: 10px;
 }
