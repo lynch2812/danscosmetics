@@ -42,8 +42,8 @@ span {
   overflow: hidden;
   background-color: darkslateblue;
   font-family: "Times New Roman", Times, serif;
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
 }
 /*container for dropdown in headers navbar*/
 .dropDwn_container {
@@ -108,7 +108,7 @@ span {
 /*Hero container and picture*/
 .hero {
   width: 100%;
-  height:auto;
+  height: auto;
 }
 .hero_title {
   position: absolute;
@@ -137,7 +137,7 @@ span {
   height: auto;
   width: 100%;
   border: 3px solid black;
-  margin-left:-1rem;
+  margin-left: -1rem;
 }
 /* container and image with slide function that holds information*/
 /*flex container*/
@@ -150,7 +150,7 @@ span {
 }
 .flex_container > div {
   margin-left: 0rem;
-  margin-right:0rem;
+  margin-right: 0rem;
 }
 .flex_container2 {
   display: flex;
@@ -160,8 +160,8 @@ span {
   margin-left: 5%;
 }
 .flex_container2 > div {
-  margin-left: 0.0rem;
-  margin-right: 0.0rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 .intro_image_container {
   height: 20rem;
@@ -187,25 +187,24 @@ span {
   position: relative;
   top: 1.2rem;
   left: 0rem;
-  
 }
 /*context boxes*/
 
 .product_context {
   display: block;
-    height: auto;
-    width: 100%;
-    background-color: ghostwhite;
-    color: black;
-    border-top: 0.2rem double black;
-    border-bottom: 0.2rem double black;
-    margin-top: 6rem;
-    font-size: 1.3rem;
-    box-shadow: 0.8rem 0.8rem 1rem black;
-    transition: box-shadow 2s ease;
-    margin-right: 2.2rem;
-    margin-left: 5rem;
-    overflow: scroll;
+  height: auto;
+  width: 100%;
+  background-color: ghostwhite;
+  color: black;
+  border-top: 0.2rem double black;
+  border-bottom: 0.2rem double black;
+  margin-top: 6rem;
+  font-size: 1.3rem;
+  box-shadow: 0.8rem 0.8rem 1rem black;
+  transition: box-shadow 2s ease;
+  margin-right: 2.2rem;
+  margin-left: 5rem;
+  overflow: scroll;
 }
 
 .product_context:hover {
@@ -223,10 +222,14 @@ span {
   box-shadow: 0.2rem 0.2rem 0.2rem black;
   text-decoration: none;
   border-radius: 0.5rem;
-  transition: background-color 2s  ease-in-out, box-shadow 3s ease-in-out, color 2s;
-  -webkit-transition: background-color 2s  ease-in-out, box-shadow 3s ease-in-out, color 2s;
-  -o-transition: background-color 2s  ease-in-out, box-shadow 3s ease-in-out, color 2s;
-  -moz-transition: background-color 2s  ease-in-out, box-shadow 3s ease-in-out, color 2s;
+  transition: background-color 2s ease-in-out, box-shadow 3s ease-in-out,
+    color 2s;
+  -webkit-transition: background-color 2s ease-in-out, box-shadow 3s ease-in-out,
+    color 2s;
+  -o-transition: background-color 2s ease-in-out, box-shadow 3s ease-in-out,
+    color 2s;
+  -moz-transition: background-color 2s ease-in-out, box-shadow 3s ease-in-out,
+    color 2s;
   font-weight: bold;
 }
 .email_button:hover {
@@ -249,10 +252,10 @@ span {
   position: relative;
   box-shadow: 0.5rem 0.5rem 0.5rem black;
   top: -1rem;
-  left:-0.25rem;
+  left: -0.25rem;
   border: 4px double transparent;
   transition: box-shadow 2s ease-in-out;
-  align-content:center;
+  align-content: center;
   border-radius: 10%;
   overflow: hidden;
 }
@@ -265,7 +268,7 @@ span {
 
 /*galleries*/
 div.scroll-container {
-  background-color: darkslateblue;
+  background-color: black;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
@@ -274,9 +277,8 @@ div.scroll-container img {
   padding: 10px;
 }
 
-
 /*mobile optimisation*/
-@media screen and (max-width:37.5rem){
+@media screen and (max-width: 37.5rem) {
   .block_text_profile {
     font-size: 0.5rem;
   }
