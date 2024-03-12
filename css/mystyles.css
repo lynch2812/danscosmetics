@@ -244,7 +244,7 @@ span {
 /* images within flex*/
 .product_image_container {
   height: auto;
-  width: 100%;
+  max-width: 100%;
   background-color: transparent;
   position: relative;
   box-shadow: 0.5rem 0.5rem 0.5rem black;
@@ -258,8 +258,8 @@ span {
 }
 .product_image {
   display: block;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
   border-radius: 10%;
 }
 
