@@ -133,6 +133,16 @@ span {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+.profile_image_container{
+  background-color:#93772e;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 0.625rem;
+  border:3px solid #93772e;
+}
+div .profile_image_container img {
+  padding:0.525rem;
+}
 
 /* container and image with slide function that holds information*/
 /*flex container*/
