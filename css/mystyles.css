@@ -133,12 +133,7 @@ span {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.img_profile {
-  height: auto;
-  width: 100%;
-  border: 3px solid black;
-  margin-left: -1rem;
-}
+
 /* container and image with slide function that holds information*/
 /*flex container*/
 .flex_container {
