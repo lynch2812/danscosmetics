@@ -22,12 +22,28 @@ p {
 }
 dt {
   font-weight: bolder;
+  font-size: 2rem;
   text-align: left;
-  line-height: 2rem;
+  line-height: 7rem;
+}
+dd {
+  font-size: 1rem;
+  color:black;
+}
+dl {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
 }
 /*End*/
 span {
   font-weight: bold;
+}
+section {
+  width: 90%;
+  margin-left: 5%;
 }
 /* Nav buttons for controls */
 .nav_btn_img {
@@ -300,8 +316,17 @@ dl {
   margin-left: 0;
   margin-right: 0;
 }
+#faq_heading {
+  text-align: center;
+}
 .block_faq_container {
-  margin-top:3rem;
-  border-top: 0.2rem double #93772e;
-  float: left;
+  display: block;
+  margin-top: 3rem;
+  height: auto;
+  width: 99%;
+  border: 0.6rem double black;
+  margin-bottom: 1rem;
+  text-align: left;
+  background-color: #93772e;
+  color: white;
 }
