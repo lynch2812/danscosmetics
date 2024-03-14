@@ -20,7 +20,11 @@ h3 {
 p {
   font-size: 1.5rem;
 }
-
+dt {
+  font-weight: bolder;
+  text-align: left;
+  line-height: 2rem;
+}
 /*End*/
 span {
   font-weight: bold;
@@ -133,15 +137,15 @@ span {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.profile_image_container{
-  background-color:#93772e;
+.profile_image_container {
+  background-color: #93772e;
   overflow: auto;
   white-space: nowrap;
   padding: 0.625rem;
-  border:3px solid #93772e;
+  border: 3px solid black;
 }
 div .profile_image_container img {
-  padding:0.525rem;
+  padding: 0.525rem;
 }
 
 /* container and image with slide function that holds information*/
@@ -209,7 +213,7 @@ div .profile_image_container img {
   transition: box-shadow 2s ease;
   margin-right: 2.2rem;
   margin-left: 5rem;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .product_context:hover {
@@ -277,7 +281,7 @@ div.scroll-container {
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
-  border:3px solid #93772e;
+  border: 3px solid #93772e;
 }
 div.scroll-container img {
   padding: 10px;
@@ -288,4 +292,16 @@ div.scroll-container img {
   .block_text_profile {
     font-size: 0.5rem;
   }
+}
+dl {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+.block_faq_container {
+  margin-top:3rem;
+  border-top: 0.2rem double #93772e;
+  float: left;
 }
