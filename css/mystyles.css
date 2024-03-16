@@ -28,7 +28,7 @@ dt {
 }
 dd {
   font-size: 1rem;
-  color:black;
+  color: black;
 }
 dl {
   display: block;
@@ -329,4 +329,7 @@ dl {
   text-align: left;
   background-color: #93772e;
   color: white;
+}
+.media_icons {
+float: right;
 }
