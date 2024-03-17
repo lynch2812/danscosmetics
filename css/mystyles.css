@@ -309,6 +309,7 @@ div.scroll-container img {
     font-size: 0.5rem;
   }
 }
+/*faq section*/
 dl {
   display: block;
   margin-top: 1em;
@@ -333,13 +334,46 @@ dl {
 .media_icons {
   float: right;
 }
+/*END*/
+/*socials*/
+.flex_container_social {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: ghostwhite;
+  width: 90%;
+  margin-left: 5%;
+}
+.flex_container_social > div {
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
 .tiktok-embed {
   height: 29rem;
+  width: 100%;
   border: 7px solid #93772e;
-  margin-right: 2rem;
-  float: left;
+  margin-right: 1rem;
+  float: center;
+}
+.tiktok {
+  width: 100%;
 }
 .instagram-media {
   height: 40rem;
-
+  float: left;
+}
+.insta_flex1,
+.insta_flex2,
+.insta_flex3 {
+  border: 4px solid black;
+}
+.flex_container_social2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: ghostwhite;
+  width: 90%;
+  margin-left: 5%;
+}
+.flex_container_social2 > div {
+  margin-left: 3.5rem;
+  margin-right: 0rem;
 }
