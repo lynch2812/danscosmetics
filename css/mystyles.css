@@ -333,3 +333,8 @@ dl {
 .media_icons {
   float: right;
 }
+.tiktok-embed{
+  border:2px solid #93772e;
+  float:left;
+  
+}
