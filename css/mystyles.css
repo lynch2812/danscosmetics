@@ -371,6 +371,7 @@ dl {
   flex-wrap: wrap;
   background-color: ghostwhite;
   width: 90%;
+  justify-content: center;
   margin-left: 5%;
 }
 .flex_container_social2 > div {
