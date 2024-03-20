@@ -176,6 +176,7 @@ div .profile_image_container img {
 .flex_container > div {
   margin-left: 0rem;
   margin-right: 0rem;
+  padding-bottom:1.5rem;
 }
 .flex_container2 {
   display: flex;
@@ -187,6 +188,7 @@ div .profile_image_container img {
 .flex_container2 > div {
   margin-left: 0rem;
   margin-right: 0rem;
+  padding:1.5rem;
 }
 .intro_image_container {
   height: 20rem;
@@ -346,6 +348,7 @@ dl {
 .flex_container_social > div {
   margin-left: 0rem;
   margin-right: 0rem;
+  
 }
 .tiktok-embed {
   height: 29rem;
@@ -377,4 +380,5 @@ dl {
 .flex_container_social2 > div {
   margin-left: 0rem;
   margin-right: 0rem;
+  
 }
