@@ -47,6 +47,7 @@ section {
 }
 tr {
   font-size: 3rem;
+  color: white;
 }
 /* Nav buttons for controls */
 .nav_btn_img {
