@@ -45,6 +45,9 @@ section {
   width: 90%;
   margin-left: 5%;
 }
+tr {
+  font-size: 3rem;
+}
 /* Nav buttons for controls */
 .nav_btn_img {
   text-decoration: none;
@@ -176,7 +179,7 @@ div .profile_image_container img {
 .flex_container > div {
   margin-left: 0rem;
   margin-right: 0rem;
-  padding-bottom:1.5rem;
+  padding-bottom: 1.5rem;
 }
 .flex_container2 {
   display: flex;
@@ -188,7 +191,7 @@ div .profile_image_container img {
 .flex_container2 > div {
   margin-left: 0rem;
   margin-right: 0rem;
-  padding:0rem;
+  padding: 0rem;
 }
 .intro_image_container {
   height: 20rem;
@@ -348,7 +351,6 @@ dl {
 .flex_container_social > div {
   margin-left: 0rem;
   margin-right: 0rem;
-  
 }
 .tiktok-embed {
   height: 29rem;
@@ -380,10 +382,29 @@ dl {
 .flex_container_social2 > div {
   margin-left: 0rem;
   margin-right: 0rem;
-  
 }
-.product_pricing{
-  background-color:#97722e47;
-  color:white;
-  text-align:right;
-  }
+.product_pricing {
+  background-color: #97722e47;
+  color: white;
+  text-align: right;
+}
+
+.test {
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  margin-bottom: -1.5rem;
+}
+
+.flex_table {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("/projectpictures/tablebckgrd.png");
+  background-size: cover;
+  width: 81%;
+  margin-left: 9.5%;
+}
+
+.table_product {
+  align-content: center;
+}
