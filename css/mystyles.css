@@ -46,8 +46,18 @@ section {
   margin-left: 5%;
 }
 tr {
-  font-size: 3rem;
-  color: white;
+  font-size: 1rem;
+  color: black;
+}
+th,
+td {
+  padding-left: 4rem;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
 }
 /* Nav buttons for controls */
 .nav_btn_img {
@@ -400,12 +410,19 @@ dl {
 .flex_table {
   display: flex;
   flex-wrap: wrap;
-  background-image: url("/projectpictures/tablebckgrd.png");
-  background-size: cover;
   width: 81%;
   margin-left: 9.5%;
+  overflow: hidden;
+  position: relative;
+  align-content: center;
 }
-
+.table_img {
+  position: absolute;
+  opacity: 0.6;
+  width: 100%;
+  height: auto;
+}
 .table_product {
+  position: relative;
   align-content: center;
 }
