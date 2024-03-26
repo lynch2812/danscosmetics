@@ -106,12 +106,12 @@ div#footer {
 }
 
 a {
-	color: #003399;
+	color: white;
 	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a.bold {
@@ -119,7 +119,7 @@ a.bold {
 }
 
 a.underlined {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a img {

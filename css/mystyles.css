@@ -73,11 +73,14 @@ ul {
   list-style-type: none;
   float: left;
   cursor: pointer;
-}
-a {
-  text-decoration: none;
+  text-align: left;
+  color: black;
 }
 
+
+.promo_link {
+  color: #93772e;
+}
 /* Nav buttons for controls */
 .nav_btn_img {
   text-decoration: none;
@@ -399,7 +402,10 @@ dl {
 .insta_flex1,
 .insta_flex2,
 .insta_flex3 {
-  border: 4px outset black;
+  border: 4px outset transparent;
+  background: transparent;
+  width: 100%;
+  float: left;
 }
 .flex_container_social2 {
   display: flex;
@@ -453,4 +459,22 @@ dl {
   background-color: #93772e;
   width: 90%;
   margin-left: 5%;
+}
+.insta_text {
+  color: #93772e;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.promo {
+  font-style: italic;
+  color: black;
+}
+.promo_review {
+  line-height: 1.7rem;
+  font-style: italic;
+  font-weight: lighter;
+}
+.insta_text_box {
+  display: block;
+  float: left;
 }
