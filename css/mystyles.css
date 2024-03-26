@@ -72,7 +72,10 @@ Caption {
 ul {
   list-style-type: none;
   float: left;
-  background: black;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
 }
 
 /* Nav buttons for controls */
@@ -444,11 +447,10 @@ dl {
   position: relative;
   align-content: center;
 }
-.contact_foot  {
+.contact_foot {
   display: flex;
-   flex-wrap: wrap;
-   background-color: #93772e;
-   width: 90%;
-   margin-left: 5%;
-   
- }
+  flex-wrap: wrap;
+  background-color: #93772e;
+  width: 90%;
+  margin-left: 5%;
+}
