@@ -65,10 +65,16 @@ table {
 Caption {
   color: #93772e;
   font-size: 3rem;
-background: black;
-opacity: 0.7;
+  background: black;
+  opacity: 0.7;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+ul {
+  list-style-type: none;
+  float: left;
+  background: black;
+}
+
 /* Nav buttons for controls */
 .nav_btn_img {
   text-decoration: none;
@@ -438,3 +444,11 @@ dl {
   position: relative;
   align-content: center;
 }
+.contact_foot  {
+  display: flex;
+   flex-wrap: wrap;
+   background-color: #93772e;
+   width: 90%;
+   margin-left: 5%;
+   
+ }
