@@ -75,8 +75,19 @@ ul {
   cursor: pointer;
   text-align: left;
   color: black;
+  border-left: 0.3rem double black;
 }
-
+li {
+  border-bottom: 2px inset black;
+}
+.footer_list_copyright li {
+  display: inline;
+}
+footer {
+  background-color: #93772e;
+  height: 10rem;
+  border-left: 0.5rem double black;
+}
 
 .promo_link {
   color: #93772e;
@@ -477,4 +488,19 @@ dl {
 .insta_text_box {
   display: block;
   float: left;
+  border-top: 0.3rem double black;
+}
+.footer_copyright {
+  list-style: none;
+  display: inline;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.footer_list_copyright {
+  border-top: 2px double black;
+  margin-top: 4rem;
+  width: 100%;
+  border-left: none;
+  text-align: center;
 }
