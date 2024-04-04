@@ -75,7 +75,7 @@ ul {
   cursor: pointer;
   text-align: left;
   color: black;
-  border-left: 0.3rem double black;
+  
 }
 li {
   border-bottom: 2px inset black;
@@ -86,7 +86,7 @@ li {
 footer {
   background-color: #93772e;
   height: 10rem;
-  border-left: 0.5rem double black;
+  
 }
 
 .promo_link {
