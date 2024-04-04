@@ -75,18 +75,14 @@ ul {
   cursor: pointer;
   text-align: left;
   color: black;
-  
 }
-li {
-  border-bottom: 2px inset black;
-}
+
 .footer_list_copyright li {
   display: inline;
 }
 footer {
   background-color: #93772e;
   height: 10rem;
-  
 }
 
 .promo_link {
@@ -346,7 +342,6 @@ div.scroll-container {
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
-  
 }
 div.scroll-container img {
   padding: 10px;
@@ -502,9 +497,12 @@ dl {
   text-align: center;
 }
 .footer_list_copyright {
-  padding-left:5rem;
+  padding-left: 5rem;
   margin-top: 4rem;
   border-left: none;
   text-align: center;
-  color:ghostwhite;
+  color: ghostwhite;
+}
+.contact_foot_number {
+  padding-left: 0.8rem;
 }
