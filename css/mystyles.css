@@ -384,6 +384,7 @@ dl {
   float: right;
 }
 /*END*/
+
 /*socials*/
 .flex_container_social {
   display: flex;
@@ -472,7 +473,7 @@ dl {
   margin-left: 5%;
 }
 .insta_text {
-  color: #93772e;
+  color: black;
   font-size: 1.1rem;
   font-weight: bold;
 }
@@ -484,12 +485,15 @@ dl {
   line-height: 1.7rem;
   font-style: italic;
   font-weight: lighter;
+  color: #93772e;
 }
 .insta_text_box {
   display: block;
   float: left;
   border-top: 0.3rem double black;
 }
+/* end of socials  */
+/*footer details*/
 .footer_copyright {
   list-style: none;
   display: inline;
