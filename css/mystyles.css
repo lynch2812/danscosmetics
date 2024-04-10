@@ -285,7 +285,7 @@ div .profile_image_container img {
 
 /*contact us button*/
 .email_button {
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem 0.05rem;
   border: 1px solid black;
   background-color: #93772e;
   color: ghostwhite;
