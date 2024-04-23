@@ -346,6 +346,14 @@ div.scroll-container {
 div.scroll-container img {
   padding: 10px;
 }
+.table_subTitles {
+  color: black;
+  font-weight: bold;
+  
+}
+.table_offers{
+  font-weight:bold;
+}
 
 /*mobile optimisation*/
 @media screen and (max-width: 37.5rem) {
@@ -507,8 +515,6 @@ dl {
   padding-left: 0.02rem;
 }
 .footer_icon {
-  
-    margin-top: -1rem;
-    margin-left: 2rem;
+  margin-top: -1rem;
+  margin-left: 2rem;
 }
-
