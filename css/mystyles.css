@@ -99,6 +99,11 @@ footer {
 #context_heading {
   font-size: 2rem;
 }
+select {
+  background-color: transparent;
+  border: transparent;
+  font-weight: bold;
+}
 
 /*Navbar look*/
 .navbar {
@@ -349,10 +354,9 @@ div.scroll-container img {
 .table_subTitles {
   color: black;
   font-weight: bold;
-  
 }
-.table_offers{
-  font-weight:bold;
+.table_offers {
+  font-weight: bold;
 }
 
 /*mobile optimisation*/
