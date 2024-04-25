@@ -56,6 +56,9 @@ th {
   background: black;
   opacity: 1.7;
 }
+td {
+  font-size: 1rem;
+}
 table {
   margin-left: auto;
   margin-right: auto;
@@ -100,6 +103,7 @@ footer {
   font-size: 2rem;
 }
 select {
+  width: 100%;
   background-color: transparent;
   border: transparent;
   font-weight: bold;
@@ -391,6 +395,7 @@ dl {
   float: right;
 }
 /*END*/
+/*tables*/
 
 /*socials*/
 .flex_container_social {
